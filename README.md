@@ -4,7 +4,7 @@
 
 # Template to use TypeScript with k6
 
-![.github/workflows/push.yml](https://github.com/tsuperis3112/k6-template-typescript/workflows/.github/workflows/push.yml/badge.svg?branch=main)
+[![.github/workflows/push.yml](https://github.com/tsuperis3112/k6-template-typescript/actions/workflows/push.yml/badge.svg)](https://github.com/tsuperis3112/k6-template-typescript/actions/workflows/push.yml)
 
 </div>
 
