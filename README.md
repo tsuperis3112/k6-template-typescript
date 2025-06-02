@@ -25,7 +25,7 @@ While it, of course, still is possible to shoot yourself in the foot with TypeSc
 
 **Creating a project from the `template-typescript` template**
 
-To generate a TypeScript project that includes the dependencies and initial configuration, navigate to the [template-typescript](https://github.com/grafana/k6-template-typescript) page and click **Use this template**.
+To generate a TypeScript project that includes the dependencies and initial configuration, navigate to the [template-typescript](https://github.com/tsuperis3112/k6-template-typescript) page and click **Use this template**.
 
   ![](docs/use-this-template-button.png)
 
@@ -40,9 +40,9 @@ npm install
 
 ## Running the test
 
-To run a test written in TypeScript, we first have to transpile the TypeScript code into JavaScript running a bundler. This project uses `Babel` and `Webpack` to bundle the different files into ES modules (ESM), using its [`webpack.config.js`](./webpack.config.js) configuration.
+To run a test written in TypeScript, we first have to transpile the TypeScript code into JavaScript running a bundler. This project uses `Vite` and `SWC` to bundle the different files into CommonJS, using its [`vite.config.ts`](./vite.config.ts) configuration.
 
-The next command transforms each TypeScript test in `./src` to the `./dist` folder as ES modules.
+The next command transforms each TypeScript test in `./src` to the `./dist` folder as CommonJS.
 
 ```bash
 npm run bundle
